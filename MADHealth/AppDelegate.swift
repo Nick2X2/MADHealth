@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MADHealth
 //
-//  Created by Nick Poe on 13.11.21.
+//  Created by Mikita Poluektau on 13.11.21.
 //
 
 import UIKit
