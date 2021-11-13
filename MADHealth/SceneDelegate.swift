@@ -32,7 +32,7 @@ private extension SceneDelegate {
         let onboardingIsShowed = UserDefaultsManager.shared.getBool(data: .onboardingIsShowed)
         let isAuth = UserDefaultsManager.shared.getBool(data: .isAuth)
         if isAuth {
-            let vc = UIStoryboard(storyboard: .main).instantiateInitialViewController()
+            let vc = UIStoryboard(storyboard: .tabBar).instantiateInitialViewController()
             let nc = NavigationController(rootVC: vc!)
             showWindow(nc: nc)
         } else if onboardingIsShowed == false {

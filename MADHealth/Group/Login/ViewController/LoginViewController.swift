@@ -65,7 +65,7 @@ extension LoginViewController: LoginViewModelDelegate {
 private extension LoginViewController {
     
     func pushMainVC() {
-        let vc = UIStoryboard(storyboard: .main).instantiateInitialViewController()
+        let vc = UIStoryboard(storyboard: .tabBar).instantiateInitialViewController()
         updateRootVC(vc!)
     }
     

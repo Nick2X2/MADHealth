@@ -26,9 +26,23 @@
 		EC964CB4273F9D430028EA02 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB3273F9D430028EA02 /* Error.swift */; };
 		EC964CB7273F9E200028EA02 /* EmptyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB6273F9E200028EA02 /* EmptyModel.swift */; };
 		EC964CBA273F9FF20028EA02 /* LoginViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */; };
-		EC964CBF273FA31E0028EA02 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CBE273FA31E0028EA02 /* MainViewController.swift */; };
-		EC964CC1273FA3260028EA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CC0273FA3260028EA02 /* Main.storyboard */; };
 		EC964CC4273FA4E20028EA02 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CC3273FA4E20028EA02 /* UserDefaultsManager.swift */; };
+		EC964CC9273FAAEE0028EA02 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CC8273FAAEE0028EA02 /* TabBar.storyboard */; };
+		EC964CCB273FAAFD0028EA02 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CCA273FAAFD0028EA02 /* TabBarViewController.swift */; };
+		EC964CD0273FAB590028EA02 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CCF273FAB590028EA02 /* Home.storyboard */; };
+		EC964CD2273FAB610028EA02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CD1273FAB610028EA02 /* HomeViewController.swift */; };
+		EC964CD7273FAD760028EA02 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CD6273FAD760028EA02 /* Notification.storyboard */; };
+		EC964CD9273FAD7F0028EA02 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CD8273FAD7F0028EA02 /* NotificationViewController.swift */; };
+		EC964CDE273FAE190028EA02 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CDD273FAE190028EA02 /* Statistics.storyboard */; };
+		EC964CE0273FAE220028EA02 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CDF273FAE220028EA02 /* StatisticsViewController.swift */; };
+		EC964CE5273FAE710028EA02 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CE4273FAE710028EA02 /* Settings.storyboard */; };
+		EC964CE7273FAE840028EA02 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CE6273FAE840028EA02 /* SettingsViewController.swift */; };
+		EC964CEA273FAF5E0028EA02 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CE9273FAF5E0028EA02 /* AppColor.swift */; };
+		EC964CED273FB18E0028EA02 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CEC273FB18E0028EA02 /* HomeDataSource.swift */; };
+		EC964CF2273FB2400028EA02 /* HomeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CF1273FB2400028EA02 /* HomeDelegate.swift */; };
+		EC964CF5273FB2730028EA02 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CF4273FB2730028EA02 /* HomeViewModel.swift */; };
+		EC964CF8273FB2880028EA02 /* HomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CF7273FB2880028EA02 /* HomeCard.swift */; };
+		EC964CFB273FB44E0028EA02 /* HomeCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CFA273FB44E0028EA02 /* HomeCardTableViewCell.swift */; };
 		ECE87E76273F7F14001DAEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE87E75273F7F14001DAEE7 /* AppDelegate.swift */; };
 		ECE87E78273F7F14001DAEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE87E77273F7F14001DAEE7 /* SceneDelegate.swift */; };
 		ECE87E7F273F7F16001DAEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE87E7E273F7F16001DAEE7 /* Assets.xcassets */; };
@@ -76,9 +90,23 @@
 		EC964CB3273F9D430028EA02 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		EC964CB6273F9E200028EA02 /* EmptyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModel.swift; sourceTree = "<group>"; };
 		EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelDelegate.swift; sourceTree = "<group>"; };
-		EC964CBE273FA31E0028EA02 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		EC964CC0273FA3260028EA02 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EC964CC3273FA4E20028EA02 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		EC964CC8273FAAEE0028EA02 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		EC964CCA273FAAFD0028EA02 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		EC964CCF273FAB590028EA02 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EC964CD1273FAB610028EA02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC964CD6273FAD760028EA02 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		EC964CD8273FAD7F0028EA02 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		EC964CDD273FAE190028EA02 /* Statistics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		EC964CDF273FAE220028EA02 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		EC964CE4273FAE710028EA02 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		EC964CE6273FAE840028EA02 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EC964CE9273FAF5E0028EA02 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		EC964CEC273FB18E0028EA02 /* HomeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
+		EC964CF1273FB2400028EA02 /* HomeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDelegate.swift; sourceTree = "<group>"; };
+		EC964CF4273FB2730028EA02 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EC964CF7273FB2880028EA02 /* HomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCard.swift; sourceTree = "<group>"; };
+		EC964CFA273FB44E0028EA02 /* HomeCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardTableViewCell.swift; sourceTree = "<group>"; };
 		ECE87E72273F7F14001DAEE7 /* MADHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE87E75273F7F14001DAEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECE87E77273F7F14001DAEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,37 +294,190 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		EC964CBB273FA2F70028EA02 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				EC964CBD273FA30E0028EA02 /* ViewController */,
-				EC964CBC273FA3070028EA02 /* Storyboard */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		EC964CBC273FA3070028EA02 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				EC964CC0273FA3260028EA02 /* Main.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		EC964CBD273FA30E0028EA02 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				EC964CBE273FA31E0028EA02 /* MainViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		EC964CC2273FA4D90028EA02 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
 				EC964CC3273FA4E20028EA02 /* UserDefaultsManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		EC964CC5273FAAA10028EA02 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CC7273FAAE50028EA02 /* Storyboard */,
+				EC964CC6273FAADF0028EA02 /* ViewController */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		EC964CC6273FAADF0028EA02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CCA273FAAFD0028EA02 /* TabBarViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC964CC7273FAAE50028EA02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CC8273FAAEE0028EA02 /* TabBar.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC964CCC273FAB440028EA02 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CF9273FB4370028EA02 /* Cell */,
+				EC964CF6273FB27B0028EA02 /* Enum */,
+				EC964CF3273FB2630028EA02 /* ViewModel */,
+				EC964CEF273FB22D0028EA02 /* Protocol */,
+				EC964CEB273FB1800028EA02 /* DataSource */,
+				EC964CCE273FAB510028EA02 /* Storyboard */,
+				EC964CCD273FAB4C0028EA02 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC964CCD273FAB4C0028EA02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CD1273FAB610028EA02 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC964CCE273FAB510028EA02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CCF273FAB590028EA02 /* Home.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC964CD3273FAD5E0028EA02 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CD5273FAD6E0028EA02 /* ViewController */,
+				EC964CD4273FAD690028EA02 /* Storyboard */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		EC964CD4273FAD690028EA02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CD6273FAD760028EA02 /* Notification.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC964CD5273FAD6E0028EA02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CD8273FAD7F0028EA02 /* NotificationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC964CDA273FAE020028EA02 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CDC273FAE100028EA02 /* Storyboard */,
+				EC964CDB273FAE0A0028EA02 /* ViewController */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		EC964CDB273FAE0A0028EA02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CDF273FAE220028EA02 /* StatisticsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC964CDC273FAE100028EA02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CDD273FAE190028EA02 /* Statistics.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC964CE1273FAE590028EA02 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CE3273FAE690028EA02 /* ViewController */,
+				EC964CE2273FAE630028EA02 /* Storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EC964CE2273FAE630028EA02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CE4273FAE710028EA02 /* Settings.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC964CE3273FAE690028EA02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CE6273FAE840028EA02 /* SettingsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC964CE8273FAF520028EA02 /* AppStyle */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CE9273FAF5E0028EA02 /* AppColor.swift */,
+			);
+			path = AppStyle;
+			sourceTree = "<group>";
+		};
+		EC964CEB273FB1800028EA02 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CEC273FB18E0028EA02 /* HomeDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		EC964CEF273FB22D0028EA02 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CF1273FB2400028EA02 /* HomeDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		EC964CF3273FB2630028EA02 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CF4273FB2730028EA02 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC964CF6273FB27B0028EA02 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CF7273FB2880028EA02 /* HomeCard.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		EC964CF9273FB4370028EA02 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CFA273FB44E0028EA02 /* HomeCardTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		ECE87E69273F7F14001DAEE7 = {
@@ -334,7 +515,11 @@
 		ECE87E89273F8431001DAEE7 /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				EC964CBB273FA2F70028EA02 /* Main */,
+				EC964CE1273FAE590028EA02 /* Settings */,
+				EC964CDA273FAE020028EA02 /* Statistics */,
+				EC964CD3273FAD5E0028EA02 /* Notification */,
+				EC964CCC273FAB440028EA02 /* Home */,
+				EC964CC5273FAAA10028EA02 /* TabBar */,
 				EC964C91273F913E0028EA02 /* Login */,
 				ECE87E8A273F8441001DAEE7 /* Onbording */,
 			);
@@ -369,6 +554,7 @@
 		ECE87E92273F84C1001DAEE7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EC964CE8273FAF520028EA02 /* AppStyle */,
 				EC964CC2273FA4D90028EA02 /* Manager */,
 				EC964CB2273F9D390028EA02 /* Model */,
 				EC964CAF273F9CE10028EA02 /* Methods */,
@@ -470,7 +656,9 @@
 				ECE87EB4273F84E4001DAEE7 /* Raleway-SemiBold.ttf in Resources */,
 				ECE87EAD273F84E4001DAEE7 /* Raleway-ExtraLightItalic.ttf in Resources */,
 				ECE87E82273F7F16001DAEE7 /* LaunchScreen.storyboard in Resources */,
+				EC964CD7273FAD760028EA02 /* Notification.storyboard in Resources */,
 				ECE87E91273F84B3001DAEE7 /* Onbording.storyboard in Resources */,
+				EC964CC9273FAAEE0028EA02 /* TabBar.storyboard in Resources */,
 				ECE87EB3273F84E4001DAEE7 /* Raleway-Thin.ttf in Resources */,
 				ECE87EA6273F84E4001DAEE7 /* Raleway-LightItalic.ttf in Resources */,
 				ECE87EAE273F84E4001DAEE7 /* Raleway-ExtraBoldItalic.ttf in Resources */,
@@ -479,7 +667,7 @@
 				ECE87EB7273F84E4001DAEE7 /* Raleway-Regular.ttf in Resources */,
 				EC964C96273F915B0028EA02 /* Login.storyboard in Resources */,
 				ECE87EB6273F84E4001DAEE7 /* Raleway-MediumItalic.ttf in Resources */,
-				EC964CC1273FA3260028EA02 /* Main.storyboard in Resources */,
+				EC964CDE273FAE190028EA02 /* Statistics.storyboard in Resources */,
 				ECE87EB5273F84E4001DAEE7 /* Raleway-ThinItalic.ttf in Resources */,
 				ECE87EB0273F84E4001DAEE7 /* Raleway-Medium.ttf in Resources */,
 				ECE87EB1273F84E4001DAEE7 /* Raleway-ExtraBold.ttf in Resources */,
@@ -487,9 +675,11 @@
 				ECE87EAF273F84E4001DAEE7 /* Raleway-Italic.ttf in Resources */,
 				ECE87E7F273F7F16001DAEE7 /* Assets.xcassets in Resources */,
 				ECE87EAA273F84E4001DAEE7 /* Raleway-BoldItalic.ttf in Resources */,
+				EC964CD0273FAB590028EA02 /* Home.storyboard in Resources */,
 				ECE87EB2273F84E4001DAEE7 /* Raleway-Bold.ttf in Resources */,
 				ECE87EAC273F84E4001DAEE7 /* Raleway-BlackItalic.ttf in Resources */,
 				ECE87EA8273F84E4001DAEE7 /* Raleway-ExtraLight.ttf in Resources */,
+				EC964CE5273FAE710028EA02 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +732,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC964CBF273FA31E0028EA02 /* MainViewController.swift in Sources */,
+				EC964CF8273FB2880028EA02 /* HomeCard.swift in Sources */,
 				EC964C86273F8AA80028EA02 /* Storyboard+Navigation.swift in Sources */,
 				ECE87E8F273F84A6001DAEE7 /* OnbordingViewController.swift in Sources */,
 				EC964CAB273F9B540028EA02 /* Constant.swift in Sources */,
@@ -551,8 +741,13 @@
 				EC964C9A273F94C60028EA02 /* UIViewController+Navigation.swift in Sources */,
 				EC964CA8273F9B0F0028EA02 /* APIAuthProvider.swift in Sources */,
 				EC964C8A273F8ACE0028EA02 /* Storyboard.swift in Sources */,
+				EC964CEA273FAF5E0028EA02 /* AppColor.swift in Sources */,
 				EC964C9F273F95D70028EA02 /* KeyboardHelper.swift in Sources */,
+				EC964CD9273FAD7F0028EA02 /* NotificationViewController.swift in Sources */,
+				EC964CF2273FB2400028EA02 /* HomeDelegate.swift in Sources */,
 				EC964C98273F91620028EA02 /* LoginViewController.swift in Sources */,
+				EC964CF5273FB2730028EA02 /* HomeViewModel.swift in Sources */,
+				EC964CD2273FAB610028EA02 /* HomeViewController.swift in Sources */,
 				EC964C8D273F8B070028EA02 /* NavigationController.swift in Sources */,
 				EC964CA4273F98350028EA02 /* LoginViewModel.swift in Sources */,
 				EC964CAE273F9CB10028EA02 /* AuthStoreManager.swift in Sources */,
@@ -563,7 +758,12 @@
 				EC964CA1273F979F0028EA02 /* UIViewController+Action.swift in Sources */,
 				EC964CB4273F9D430028EA02 /* Error.swift in Sources */,
 				EC964CB7273F9E200028EA02 /* EmptyModel.swift in Sources */,
+				EC964CED273FB18E0028EA02 /* HomeDataSource.swift in Sources */,
 				EC964C9C273F95740028EA02 /* UIView+CornerRadius.swift in Sources */,
+				EC964CFB273FB44E0028EA02 /* HomeCardTableViewCell.swift in Sources */,
+				EC964CCB273FAAFD0028EA02 /* TabBarViewController.swift in Sources */,
+				EC964CE0273FAE220028EA02 /* StatisticsViewController.swift in Sources */,
+				EC964CE7273FAE840028EA02 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,7 +904,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6D5VKBZTWA;
 				INFOPLIST_FILE = MADHealth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -725,7 +925,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6D5VKBZTWA;
 				INFOPLIST_FILE = MADHealth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -11,7 +11,7 @@ enum Storyboard: String {
     
     case onbording = "Onbording"
     case login = "Login"
-    case main = "Main"
+    case tabBar = "TabBar"
     
     var name: String {
         return rawValue
