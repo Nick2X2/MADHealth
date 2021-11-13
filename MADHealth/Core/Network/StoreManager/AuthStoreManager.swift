@@ -10,10 +10,10 @@ import Moya
 class AuthStoreManager {
     
     // - Provider
-    private let addressProvider = MoyaProvider<APIAuthProvider>()
+    private let authProvider = MoyaProvider<APIAuthProvider>()
     
     func auth(email: String, password: String, completion: @escaping ((_ model: EmptyModel?, _ error: Error?) -> ())) {
-        addressProvider.request(.auth(email: email, password: password)) { (result) in
+        authProvider.request(.auth(email: email, password: password)) { (result) in
             handleResponse(result: result, completion: completion)
         }
     }

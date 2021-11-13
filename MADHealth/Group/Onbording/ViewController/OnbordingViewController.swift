@@ -16,6 +16,7 @@ class OnbordingViewController: UIViewController {
     // - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        configure()
     }
 
 }
@@ -56,6 +57,7 @@ extension OnbordingViewController: UIScrollViewDelegate {
 private extension OnbordingViewController {
     
     func configure() {
+        UserDefaultsManager.shared.save(value: true, data: .onboardingIsShowed)
         scrollView.delegate = self
     }
     

@@ -28,6 +28,7 @@ extension LoginViewModel {
         guard !email.isEmpty && !password.isEmpty && email.contains("@")  else { return }
         AuthStoreManager().auth(email: email, password: password) { [weak self] response, error in
             if error == nil {
+                UserDefaultsManager.shared.save(value: true, data: .isAuth)
                 self?.delegate?.openMainScreen()
             }
         }

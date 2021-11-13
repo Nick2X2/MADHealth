@@ -28,6 +28,7 @@
 		EC964CBA273F9FF20028EA02 /* LoginViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */; };
 		EC964CBF273FA31E0028EA02 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CBE273FA31E0028EA02 /* MainViewController.swift */; };
 		EC964CC1273FA3260028EA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CC0273FA3260028EA02 /* Main.storyboard */; };
+		EC964CC4273FA4E20028EA02 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CC3273FA4E20028EA02 /* UserDefaultsManager.swift */; };
 		ECE87E76273F7F14001DAEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE87E75273F7F14001DAEE7 /* AppDelegate.swift */; };
 		ECE87E78273F7F14001DAEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE87E77273F7F14001DAEE7 /* SceneDelegate.swift */; };
 		ECE87E7F273F7F16001DAEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE87E7E273F7F16001DAEE7 /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelDelegate.swift; sourceTree = "<group>"; };
 		EC964CBE273FA31E0028EA02 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EC964CC0273FA3260028EA02 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EC964CC3273FA4E20028EA02 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		ECE87E72273F7F14001DAEE7 /* MADHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE87E75273F7F14001DAEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECE87E77273F7F14001DAEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -289,6 +291,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		EC964CC2273FA4D90028EA02 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CC3273FA4E20028EA02 /* UserDefaultsManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		ECE87E69273F7F14001DAEE7 = {
 			isa = PBXGroup;
 			children = (
@@ -359,6 +369,7 @@
 		ECE87E92273F84C1001DAEE7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EC964CC2273FA4D90028EA02 /* Manager */,
 				EC964CB2273F9D390028EA02 /* Model */,
 				EC964CAF273F9CE10028EA02 /* Methods */,
 				EC964CA5273F9AFA0028EA02 /* Network */,
@@ -535,6 +546,7 @@
 				EC964C86273F8AA80028EA02 /* Storyboard+Navigation.swift in Sources */,
 				ECE87E8F273F84A6001DAEE7 /* OnbordingViewController.swift in Sources */,
 				EC964CAB273F9B540028EA02 /* Constant.swift in Sources */,
+				EC964CC4273FA4E20028EA02 /* UserDefaultsManager.swift in Sources */,
 				ECE87E76273F7F14001DAEE7 /* AppDelegate.swift in Sources */,
 				EC964C9A273F94C60028EA02 /* UIViewController+Navigation.swift in Sources */,
 				EC964CA8273F9B0F0028EA02 /* APIAuthProvider.swift in Sources */,

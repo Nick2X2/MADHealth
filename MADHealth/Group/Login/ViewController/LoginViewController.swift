@@ -9,7 +9,6 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    
     // - UI
     @IBOutlet weak var eyeButton: UIButton!
     @IBOutlet weak var emailTextField: UITextField!
@@ -87,10 +86,9 @@ private extension LoginViewController {
             UIView.animate(withDuration: time) { [weak self] in
                 guard let self = self else { return }
                 switch animation {
-                case .keyboardShown: self.passwordButtomConstraint.constant = size.height + 16
-                case .keyboardHidden: self.passwordButtomConstraint.constant = 170
+                    case .keyboardShown: self.passwordButtomConstraint.constant = size.height + 16
+                    case .keyboardHidden: self.passwordButtomConstraint.constant = 170
                 }
-                
                 self.view.layoutIfNeeded()
             }
         }

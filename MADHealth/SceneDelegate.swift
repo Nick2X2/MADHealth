@@ -29,8 +29,24 @@ private extension SceneDelegate {
     }
     
     func setupNavigationController() {
-        let vc = UIStoryboard(storyboard: .onbording).instantiateInitialViewController()
-        let nc = NavigationController(rootVC: vc!)
+        let onboardingIsShowed = UserDefaultsManager.shared.getBool(data: .onboardingIsShowed)
+        let isAuth = UserDefaultsManager.shared.getBool(data: .isAuth)
+        if isAuth {
+            let vc = UIStoryboard(storyboard: .main).instantiateInitialViewController()
+            let nc = NavigationController(rootVC: vc!)
+            showWindow(nc: nc)
+        } else if onboardingIsShowed == false {
+            let vc = UIStoryboard(storyboard: .onbording).instantiateInitialViewController()
+            let nc = NavigationController(rootVC: vc!)
+            showWindow(nc: nc)
+        } else {
+            let vc = UIStoryboard(storyboard: .login).instantiateInitialViewController()
+            let nc = NavigationController(rootVC: vc!)
+            showWindow(nc: nc)
+        }
+    }
+    
+    func showWindow(nc: NavigationController) {
         window?.rootViewController = nc
         window?.makeKeyAndVisible()
     }
