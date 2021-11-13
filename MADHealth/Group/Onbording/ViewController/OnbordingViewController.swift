@@ -13,6 +13,7 @@ class OnbordingViewController: UIViewController {
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var scrollView: UIScrollView!
     
+    // - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -23,10 +24,21 @@ class OnbordingViewController: UIViewController {
 private extension OnbordingViewController {
     
     @IBAction func skipButtonAction(_ sender: UIButton) {
+        pushLoginVC()
     }
     
     func updatePage() {
         pageControl.currentPage = Int(scrollView.contentOffset.x / Screen.width)
+    }
+    
+}
+
+// MARK: - Navigation
+private extension OnbordingViewController {
+    
+    func pushLoginVC() {
+        let vc = UIStoryboard(storyboard: .login).instantiateInitialViewController()
+        updateRootVC(vc!)
     }
     
 }

@@ -10,6 +10,7 @@ import Foundation
 enum Storyboard: String {
     
     case onbording = "Onbording"
+    case login = "Login"
     
     var name: String {
         return rawValue
