@@ -45,8 +45,29 @@ private extension LoginViewController {
     }
     
     @IBAction func signInButtonAction(_ sender: UIButton) {
+        viewModel.auth(email: emailTextField.text ?? "", password: passwordTextField.text ?? "")
     }
+    
     @IBAction func registraitionButtonAction(_ sender: UIButton) {
+    }
+    
+}
+
+// MARK: - LoginViewModelDelegate
+extension LoginViewController: LoginViewModelDelegate {
+    
+    func openMainScreen() {
+        pushMainVC()
+    }
+    
+}
+
+// MARK: - Navigation
+private extension LoginViewController {
+    
+    func pushMainVC() {
+        let vc = UIStoryboard(storyboard: .main).instantiateInitialViewController()
+        updateRootVC(vc!)
     }
     
 }
@@ -57,6 +78,8 @@ private extension LoginViewController {
     func configure() {
         configureKeyboard()
         hideKeyboardWhenTappedAround()
+        viewModel.delegate = self
+        passwordTextField.isSecureTextEntry = viewModel.isPasswordHidden
     }
     
     func configureKeyboard() {

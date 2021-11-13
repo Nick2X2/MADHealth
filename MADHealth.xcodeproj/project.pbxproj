@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4D9DE0A2792FA65F12AFA9A /* Pods_MADHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B8ABC2CE25B426B731768 /* Pods_MADHealth.framework */; };
 		EC964C86273F8AA80028EA02 /* Storyboard+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964C85273F8AA80028EA02 /* Storyboard+Navigation.swift */; };
 		EC964C8A273F8ACE0028EA02 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964C89273F8ACE0028EA02 /* Storyboard.swift */; };
 		EC964C8D273F8B070028EA02 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964C8C273F8B070028EA02 /* NavigationController.swift */; };
@@ -18,6 +19,15 @@
 		EC964C9F273F95D70028EA02 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964C9E273F95D70028EA02 /* KeyboardHelper.swift */; };
 		EC964CA1273F979F0028EA02 /* UIViewController+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CA0273F979F0028EA02 /* UIViewController+Action.swift */; };
 		EC964CA4273F98350028EA02 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CA3273F98350028EA02 /* LoginViewModel.swift */; };
+		EC964CA8273F9B0F0028EA02 /* APIAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CA7273F9B0F0028EA02 /* APIAuthProvider.swift */; };
+		EC964CAB273F9B540028EA02 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CAA273F9B540028EA02 /* Constant.swift */; };
+		EC964CAE273F9CB10028EA02 /* AuthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CAD273F9CB10028EA02 /* AuthStoreManager.swift */; };
+		EC964CB1273F9CEB0028EA02 /* HandleResponseMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB0273F9CEB0028EA02 /* HandleResponseMethod.swift */; };
+		EC964CB4273F9D430028EA02 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB3273F9D430028EA02 /* Error.swift */; };
+		EC964CB7273F9E200028EA02 /* EmptyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB6273F9E200028EA02 /* EmptyModel.swift */; };
+		EC964CBA273F9FF20028EA02 /* LoginViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */; };
+		EC964CBF273FA31E0028EA02 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CBE273FA31E0028EA02 /* MainViewController.swift */; };
+		EC964CC1273FA3260028EA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CC0273FA3260028EA02 /* Main.storyboard */; };
 		ECE87E76273F7F14001DAEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE87E75273F7F14001DAEE7 /* AppDelegate.swift */; };
 		ECE87E78273F7F14001DAEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE87E77273F7F14001DAEE7 /* SceneDelegate.swift */; };
 		ECE87E7F273F7F16001DAEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE87E7E273F7F16001DAEE7 /* Assets.xcassets */; };
@@ -45,6 +55,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		258B8ABC2CE25B426B731768 /* Pods_MADHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MADHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B8C3FDF2953364B1AA325D /* Pods-MADHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADHealth.release.xcconfig"; path = "Target Support Files/Pods-MADHealth/Pods-MADHealth.release.xcconfig"; sourceTree = "<group>"; };
 		EC964C85273F8AA80028EA02 /* Storyboard+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Navigation.swift"; sourceTree = "<group>"; };
 		EC964C89273F8ACE0028EA02 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		EC964C8C273F8B070028EA02 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,15 @@
 		EC964C9E273F95D70028EA02 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
 		EC964CA0273F979F0028EA02 /* UIViewController+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Action.swift"; sourceTree = "<group>"; };
 		EC964CA3273F98350028EA02 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EC964CA7273F9B0F0028EA02 /* APIAuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthProvider.swift; sourceTree = "<group>"; };
+		EC964CAA273F9B540028EA02 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EC964CAD273F9CB10028EA02 /* AuthStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStoreManager.swift; sourceTree = "<group>"; };
+		EC964CB0273F9CEB0028EA02 /* HandleResponseMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleResponseMethod.swift; sourceTree = "<group>"; };
+		EC964CB3273F9D430028EA02 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		EC964CB6273F9E200028EA02 /* EmptyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModel.swift; sourceTree = "<group>"; };
+		EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelDelegate.swift; sourceTree = "<group>"; };
+		EC964CBE273FA31E0028EA02 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EC964CC0273FA3260028EA02 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ECE87E72273F7F14001DAEE7 /* MADHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE87E75273F7F14001DAEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECE87E77273F7F14001DAEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +103,7 @@
 		ECE87EA3273F84E4001DAEE7 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ECE87EA4273F84E4001DAEE7 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
 		ECE87EA5273F84E4001DAEE7 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		FC44B508E2F5AB8C5ED6E557 /* Pods-MADHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADHealth.debug.xcconfig"; path = "Target Support Files/Pods-MADHealth/Pods-MADHealth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +111,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D9DE0A2792FA65F12AFA9A /* Pods_MADHealth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E91FB3CAD92316ABD5F0C16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				258B8ABC2CE25B426B731768 /* Pods_MADHealth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A785200FE4AB2C21C9C3DADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC44B508E2F5AB8C5ED6E557 /* Pods-MADHealth.debug.xcconfig */,
+				48B8C3FDF2953364B1AA325D /* Pods-MADHealth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC964C84273F8A950028EA02 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				EC964C8F273F8E230028EA02 /* Screen.swift */,
+				EC964CAA273F9B540028EA02 /* Constant.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -133,6 +174,7 @@
 		EC964C91273F913E0028EA02 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				EC964CB8273F9FDE0028EA02 /* Protocol */,
 				EC964CA2273F98200028EA02 /* ViewModel */,
 				EC964C94273F91510028EA02 /* Storyboard */,
 				EC964C92273F91480028EA02 /* ViewController */,
@@ -172,11 +214,88 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		EC964CA5273F9AFA0028EA02 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CAC273F9C920028EA02 /* StoreManager */,
+				EC964CA6273F9B050028EA02 /* Provider */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EC964CA6273F9B050028EA02 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CA7273F9B0F0028EA02 /* APIAuthProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		EC964CAC273F9C920028EA02 /* StoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CAD273F9CB10028EA02 /* AuthStoreManager.swift */,
+			);
+			path = StoreManager;
+			sourceTree = "<group>";
+		};
+		EC964CAF273F9CE10028EA02 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CB0273F9CEB0028EA02 /* HandleResponseMethod.swift */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		EC964CB2273F9D390028EA02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CB3273F9D430028EA02 /* Error.swift */,
+				EC964CB6273F9E200028EA02 /* EmptyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC964CB8273F9FDE0028EA02 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		EC964CBB273FA2F70028EA02 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CBD273FA30E0028EA02 /* ViewController */,
+				EC964CBC273FA3070028EA02 /* Storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EC964CBC273FA3070028EA02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CC0273FA3260028EA02 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC964CBD273FA30E0028EA02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC964CBE273FA31E0028EA02 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		ECE87E69273F7F14001DAEE7 = {
 			isa = PBXGroup;
 			children = (
 				ECE87E74273F7F14001DAEE7 /* MADHealth */,
 				ECE87E73273F7F14001DAEE7 /* Products */,
+				A785200FE4AB2C21C9C3DADD /* Pods */,
+				3E91FB3CAD92316ABD5F0C16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,6 +324,7 @@
 		ECE87E89273F8431001DAEE7 /* Group */ = {
 			isa = PBXGroup;
 			children = (
+				EC964CBB273FA2F70028EA02 /* Main */,
 				EC964C91273F913E0028EA02 /* Login */,
 				ECE87E8A273F8441001DAEE7 /* Onbording */,
 			);
@@ -239,6 +359,9 @@
 		ECE87E92273F84C1001DAEE7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EC964CB2273F9D390028EA02 /* Model */,
+				EC964CAF273F9CE10028EA02 /* Methods */,
+				EC964CA5273F9AFA0028EA02 /* Network */,
 				EC964C9D273F95CB0028EA02 /* Helper */,
 				EC964C8E273F8E150028EA02 /* Constant */,
 				EC964C8B273F8AFF0028EA02 /* View */,
@@ -281,9 +404,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECE87E86273F7F16001DAEE7 /* Build configuration list for PBXNativeTarget "MADHealth" */;
 			buildPhases = (
+				2AA21C23FC458BC18246C0E5 /* [CP] Check Pods Manifest.lock */,
 				ECE87E6E273F7F14001DAEE7 /* Sources */,
 				ECE87E6F273F7F14001DAEE7 /* Frameworks */,
 				ECE87E70273F7F14001DAEE7 /* Resources */,
+				9B2D721136541D572960D78C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -343,6 +468,7 @@
 				ECE87EB7273F84E4001DAEE7 /* Raleway-Regular.ttf in Resources */,
 				EC964C96273F915B0028EA02 /* Login.storyboard in Resources */,
 				ECE87EB6273F84E4001DAEE7 /* Raleway-MediumItalic.ttf in Resources */,
+				EC964CC1273FA3260028EA02 /* Main.storyboard in Resources */,
 				ECE87EB5273F84E4001DAEE7 /* Raleway-ThinItalic.ttf in Resources */,
 				ECE87EB0273F84E4001DAEE7 /* Raleway-Medium.ttf in Resources */,
 				ECE87EB1273F84E4001DAEE7 /* Raleway-ExtraBold.ttf in Resources */,
@@ -358,23 +484,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AA21C23FC458BC18246C0E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MADHealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2D721136541D572960D78C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MADHealth/Pods-MADHealth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MADHealth/Pods-MADHealth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MADHealth/Pods-MADHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECE87E6E273F7F14001DAEE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC964CBF273FA31E0028EA02 /* MainViewController.swift in Sources */,
 				EC964C86273F8AA80028EA02 /* Storyboard+Navigation.swift in Sources */,
 				ECE87E8F273F84A6001DAEE7 /* OnbordingViewController.swift in Sources */,
+				EC964CAB273F9B540028EA02 /* Constant.swift in Sources */,
 				ECE87E76273F7F14001DAEE7 /* AppDelegate.swift in Sources */,
 				EC964C9A273F94C60028EA02 /* UIViewController+Navigation.swift in Sources */,
+				EC964CA8273F9B0F0028EA02 /* APIAuthProvider.swift in Sources */,
 				EC964C8A273F8ACE0028EA02 /* Storyboard.swift in Sources */,
 				EC964C9F273F95D70028EA02 /* KeyboardHelper.swift in Sources */,
 				EC964C98273F91620028EA02 /* LoginViewController.swift in Sources */,
 				EC964C8D273F8B070028EA02 /* NavigationController.swift in Sources */,
 				EC964CA4273F98350028EA02 /* LoginViewModel.swift in Sources */,
+				EC964CAE273F9CB10028EA02 /* AuthStoreManager.swift in Sources */,
 				ECE87E78273F7F14001DAEE7 /* SceneDelegate.swift in Sources */,
+				EC964CB1273F9CEB0028EA02 /* HandleResponseMethod.swift in Sources */,
 				EC964C90273F8E230028EA02 /* Screen.swift in Sources */,
+				EC964CBA273F9FF20028EA02 /* LoginViewModelDelegate.swift in Sources */,
 				EC964CA1273F979F0028EA02 /* UIViewController+Action.swift in Sources */,
+				EC964CB4273F9D430028EA02 /* Error.swift in Sources */,
+				EC964CB7273F9E200028EA02 /* EmptyModel.swift in Sources */,
 				EC964C9C273F95740028EA02 /* UIView+CornerRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +687,7 @@
 		};
 		ECE87E87273F7F16001DAEE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC44B508E2F5AB8C5ED6E557 /* Pods-MADHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -531,6 +708,7 @@
 		};
 		ECE87E88273F7F16001DAEE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B8C3FDF2953364B1AA325D /* Pods-MADHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
