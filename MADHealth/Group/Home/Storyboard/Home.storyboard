@@ -98,12 +98,22 @@
                                             <constraint firstAttribute="height" constant="46" id="T5l-HM-d0P"/>
                                         </constraints>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tT-MH-cqy">
+                                        <rect key="frame" x="352" y="0.0" width="46" height="46"/>
+                                        <connections>
+                                            <action selector="logautButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="gt5-bh-sNd"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="2tT-MH-cqy" firstAttribute="bottom" secondItem="P4C-5J-niw" secondAttribute="bottom" id="557-Ji-GSG"/>
                                     <constraint firstItem="P4C-5J-niw" firstAttribute="top" secondItem="Y7a-hj-h4C" secondAttribute="top" id="A7F-PR-gYN"/>
+                                    <constraint firstItem="2tT-MH-cqy" firstAttribute="trailing" secondItem="P4C-5J-niw" secondAttribute="trailing" id="De6-jI-fLV"/>
+                                    <constraint firstItem="2tT-MH-cqy" firstAttribute="top" secondItem="P4C-5J-niw" secondAttribute="top" id="Ed1-XJ-eh2"/>
                                     <constraint firstAttribute="trailing" secondItem="P4C-5J-niw" secondAttribute="trailing" constant="16" id="LJc-Kb-ObG"/>
                                     <constraint firstAttribute="bottom" secondItem="P4C-5J-niw" secondAttribute="bottom" constant="8" id="XQO-7J-bdh"/>
+                                    <constraint firstItem="2tT-MH-cqy" firstAttribute="leading" secondItem="P4C-5J-niw" secondAttribute="leading" id="cWj-8j-JNp"/>
                                     <constraint firstItem="P4C-5J-niw" firstAttribute="centerY" secondItem="nZB-iV-pbB" secondAttribute="centerY" id="g40-uF-xP3"/>
                                     <constraint firstItem="nZB-iV-pbB" firstAttribute="leading" secondItem="Y7a-hj-h4C" secondAttribute="leading" constant="16" id="ipW-Vy-IpI"/>
                                 </constraints>
@@ -126,6 +136,8 @@
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="nameLabel" destination="nZB-iV-pbB" id="saM-bf-xEp"/>
+                        <outlet property="profileImageView" destination="P4C-5J-niw" id="4pO-nv-0Nh"/>
                         <outlet property="tableView" destination="EyO-oC-uYp" id="J2b-03-NWA"/>
                     </connections>
                 </viewController>

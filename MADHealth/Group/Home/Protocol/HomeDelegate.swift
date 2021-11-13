@@ -8,5 +8,9 @@
 import Foundation
 
 protocol HomeDelegate: AnyObject {
-    func didTapOnCard()
+    func didTapOnSymptomGraph()
+    func didTapOnDiseaseHistory()
+    func didTapOnTestResults()
+    func didTapOnChatWithDoctor()
+    func didTapOnUseDeviceSensors()
 }

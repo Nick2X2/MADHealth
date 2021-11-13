@@ -24,7 +24,6 @@
 		EC964CAE273F9CB10028EA02 /* AuthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CAD273F9CB10028EA02 /* AuthStoreManager.swift */; };
 		EC964CB1273F9CEB0028EA02 /* HandleResponseMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB0273F9CEB0028EA02 /* HandleResponseMethod.swift */; };
 		EC964CB4273F9D430028EA02 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB3273F9D430028EA02 /* Error.swift */; };
-		EC964CB7273F9E200028EA02 /* EmptyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB6273F9E200028EA02 /* EmptyModel.swift */; };
 		EC964CBA273F9FF20028EA02 /* LoginViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */; };
 		EC964CC4273FA4E20028EA02 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CC3273FA4E20028EA02 /* UserDefaultsManager.swift */; };
 		EC964CC9273FAAEE0028EA02 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964CC8273FAAEE0028EA02 /* TabBar.storyboard */; };
@@ -43,6 +42,21 @@
 		EC964CF5273FB2730028EA02 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CF4273FB2730028EA02 /* HomeViewModel.swift */; };
 		EC964CF8273FB2880028EA02 /* HomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CF7273FB2880028EA02 /* HomeCard.swift */; };
 		EC964CFB273FB44E0028EA02 /* HomeCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CFA273FB44E0028EA02 /* HomeCardTableViewCell.swift */; };
+		EC964D00273FB7CD0028EA02 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964CFF273FB7CD0028EA02 /* AuthModel.swift */; };
+		EC964D03273FBAFE0028EA02 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D02273FBAFE0028EA02 /* Profile.swift */; };
+		EC964D08273FBD4C0028EA02 /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964D07273FBD4C0028EA02 /* Empty.storyboard */; };
+		EC964D0C273FBD890028EA02 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D0B273FBD890028EA02 /* EmptyViewController.swift */; };
+		EC964D11273FBFC60028EA02 /* DiseaseHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D10273FBFC60028EA02 /* DiseaseHistoryViewController.swift */; };
+		EC964D13273FBFD70028EA02 /* DiseaseHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC964D12273FBFD70028EA02 /* DiseaseHistory.storyboard */; };
+		EC964D16273FC6410028EA02 /* DiseaseHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D15273FC6410028EA02 /* DiseaseHistory.swift */; };
+		EC964D19273FC66F0028EA02 /* DiseaseHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D18273FC66F0028EA02 /* DiseaseHistoryViewModel.swift */; };
+		EC964D1B273FC6B60028EA02 /* HistoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D1A273FC6B60028EA02 /* HistoryProvider.swift */; };
+		EC964D1D273FC7220028EA02 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D1C273FC7220028EA02 /* HistoryManager.swift */; };
+		EC964D20273FC8240028EA02 /* HistoryCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D1F273FC8240028EA02 /* HistoryCardTableViewCell.swift */; };
+		EC964D23273FC92F0028EA02 /* HistoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D22273FC92F0028EA02 /* HistoryData.swift */; };
+		EC964D26273FC9450028EA02 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D25273FC9450028EA02 /* History.swift */; };
+		EC964D29273FC9EA0028EA02 /* DiseaseHistoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D28273FC9EA0028EA02 /* DiseaseHistoryDelegate.swift */; };
+		EC964D2B273FCE960028EA02 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC964D2A273FCE960028EA02 /* Date+String.swift */; };
 		ECE87E76273F7F14001DAEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE87E75273F7F14001DAEE7 /* AppDelegate.swift */; };
 		ECE87E78273F7F14001DAEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE87E77273F7F14001DAEE7 /* SceneDelegate.swift */; };
 		ECE87E7F273F7F16001DAEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE87E7E273F7F16001DAEE7 /* Assets.xcassets */; };
@@ -88,7 +102,6 @@
 		EC964CAD273F9CB10028EA02 /* AuthStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStoreManager.swift; sourceTree = "<group>"; };
 		EC964CB0273F9CEB0028EA02 /* HandleResponseMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleResponseMethod.swift; sourceTree = "<group>"; };
 		EC964CB3273F9D430028EA02 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		EC964CB6273F9E200028EA02 /* EmptyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModel.swift; sourceTree = "<group>"; };
 		EC964CB9273F9FF20028EA02 /* LoginViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelDelegate.swift; sourceTree = "<group>"; };
 		EC964CC3273FA4E20028EA02 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		EC964CC8273FAAEE0028EA02 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
@@ -107,6 +120,21 @@
 		EC964CF4273FB2730028EA02 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EC964CF7273FB2880028EA02 /* HomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCard.swift; sourceTree = "<group>"; };
 		EC964CFA273FB44E0028EA02 /* HomeCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardTableViewCell.swift; sourceTree = "<group>"; };
+		EC964CFF273FB7CD0028EA02 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		EC964D02273FBAFE0028EA02 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		EC964D07273FBD4C0028EA02 /* Empty.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Empty.storyboard; sourceTree = "<group>"; };
+		EC964D0B273FBD890028EA02 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		EC964D10273FBFC60028EA02 /* DiseaseHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseHistoryViewController.swift; sourceTree = "<group>"; };
+		EC964D12273FBFD70028EA02 /* DiseaseHistory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiseaseHistory.storyboard; sourceTree = "<group>"; };
+		EC964D15273FC6410028EA02 /* DiseaseHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseHistory.swift; sourceTree = "<group>"; };
+		EC964D18273FC66F0028EA02 /* DiseaseHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseHistoryViewModel.swift; sourceTree = "<group>"; };
+		EC964D1A273FC6B60028EA02 /* HistoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryProvider.swift; sourceTree = "<group>"; };
+		EC964D1C273FC7220028EA02 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		EC964D1F273FC8240028EA02 /* HistoryCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCardTableViewCell.swift; sourceTree = "<group>"; };
+		EC964D22273FC92F0028EA02 /* HistoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryData.swift; sourceTree = "<group>"; };
+		EC964D25273FC9450028EA02 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		EC964D28273FC9EA0028EA02 /* DiseaseHistoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseHistoryDelegate.swift; sourceTree = "<group>"; };
+		EC964D2A273FCE960028EA02 /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		ECE87E72273F7F14001DAEE7 /* MADHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE87E75273F7F14001DAEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECE87E77273F7F14001DAEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +200,7 @@
 				EC964C99273F94C60028EA02 /* UIViewController+Navigation.swift */,
 				EC964C9B273F95740028EA02 /* UIView+CornerRadius.swift */,
 				EC964CA0273F979F0028EA02 /* UIViewController+Action.swift */,
+				EC964D2A273FCE960028EA02 /* Date+String.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -257,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				EC964CA7273F9B0F0028EA02 /* APIAuthProvider.swift */,
+				EC964D1A273FC6B60028EA02 /* HistoryProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -265,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				EC964CAD273F9CB10028EA02 /* AuthStoreManager.swift */,
+				EC964D1C273FC7220028EA02 /* HistoryManager.swift */,
 			);
 			path = StoreManager;
 			sourceTree = "<group>";
@@ -281,7 +312,10 @@
 			isa = PBXGroup;
 			children = (
 				EC964CB3273F9D430028EA02 /* Error.swift */,
-				EC964CB6273F9E200028EA02 /* EmptyModel.swift */,
+				EC964CFF273FB7CD0028EA02 /* AuthModel.swift */,
+				EC964D02273FBAFE0028EA02 /* Profile.swift */,
+				EC964D22273FC92F0028EA02 /* HistoryData.swift */,
+				EC964D25273FC9450028EA02 /* History.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -480,6 +514,92 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		EC964D04273FBD350028EA02 /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D06273FBD440028EA02 /* Storyboard */,
+				EC964D05273FBD3E0028EA02 /* ViewController */,
+			);
+			path = Empty;
+			sourceTree = "<group>";
+		};
+		EC964D05273FBD3E0028EA02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D0B273FBD890028EA02 /* EmptyViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC964D06273FBD440028EA02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D07273FBD4C0028EA02 /* Empty.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC964D0D273FBFAC0028EA02 /* DiseaseHistory */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D27273FC9D50028EA02 /* Protocol */,
+				EC964D1E273FC8070028EA02 /* Cell */,
+				EC964D17273FC6590028EA02 /* ViewModel */,
+				EC964D14273FC6390028EA02 /* DataSource */,
+				EC964D0F273FBFBB0028EA02 /* ViewController */,
+				EC964D0E273FBFB70028EA02 /* Storyboard */,
+			);
+			path = DiseaseHistory;
+			sourceTree = "<group>";
+		};
+		EC964D0E273FBFB70028EA02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D12273FBFD70028EA02 /* DiseaseHistory.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC964D0F273FBFBB0028EA02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D10273FBFC60028EA02 /* DiseaseHistoryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EC964D14273FC6390028EA02 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D15273FC6410028EA02 /* DiseaseHistory.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		EC964D17273FC6590028EA02 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D18273FC66F0028EA02 /* DiseaseHistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC964D1E273FC8070028EA02 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D1F273FC8240028EA02 /* HistoryCardTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EC964D27273FC9D50028EA02 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				EC964D28273FC9EA0028EA02 /* DiseaseHistoryDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		ECE87E69273F7F14001DAEE7 = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +635,8 @@
 		ECE87E89273F8431001DAEE7 /* Group */ = {
 			isa = PBXGroup;
 			children = (
+				EC964D0D273FBFAC0028EA02 /* DiseaseHistory */,
+				EC964D04273FBD350028EA02 /* Empty */,
 				EC964CE1273FAE590028EA02 /* Settings */,
 				EC964CDA273FAE020028EA02 /* Statistics */,
 				EC964CD3273FAD5E0028EA02 /* Notification */,
@@ -662,6 +784,7 @@
 				ECE87EB3273F84E4001DAEE7 /* Raleway-Thin.ttf in Resources */,
 				ECE87EA6273F84E4001DAEE7 /* Raleway-LightItalic.ttf in Resources */,
 				ECE87EAE273F84E4001DAEE7 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				EC964D13273FBFD70028EA02 /* DiseaseHistory.storyboard in Resources */,
 				ECE87EA7273F84E4001DAEE7 /* Raleway-Light.ttf in Resources */,
 				ECE87EA9273F84E4001DAEE7 /* Raleway-Black.ttf in Resources */,
 				ECE87EB7273F84E4001DAEE7 /* Raleway-Regular.ttf in Resources */,
@@ -675,6 +798,7 @@
 				ECE87EAF273F84E4001DAEE7 /* Raleway-Italic.ttf in Resources */,
 				ECE87E7F273F7F16001DAEE7 /* Assets.xcassets in Resources */,
 				ECE87EAA273F84E4001DAEE7 /* Raleway-BoldItalic.ttf in Resources */,
+				EC964D08273FBD4C0028EA02 /* Empty.storyboard in Resources */,
 				EC964CD0273FAB590028EA02 /* Home.storyboard in Resources */,
 				ECE87EB2273F84E4001DAEE7 /* Raleway-Bold.ttf in Resources */,
 				ECE87EAC273F84E4001DAEE7 /* Raleway-BlackItalic.ttf in Resources */,
@@ -739,31 +863,43 @@
 				EC964CC4273FA4E20028EA02 /* UserDefaultsManager.swift in Sources */,
 				ECE87E76273F7F14001DAEE7 /* AppDelegate.swift in Sources */,
 				EC964C9A273F94C60028EA02 /* UIViewController+Navigation.swift in Sources */,
+				EC964D16273FC6410028EA02 /* DiseaseHistory.swift in Sources */,
 				EC964CA8273F9B0F0028EA02 /* APIAuthProvider.swift in Sources */,
 				EC964C8A273F8ACE0028EA02 /* Storyboard.swift in Sources */,
 				EC964CEA273FAF5E0028EA02 /* AppColor.swift in Sources */,
+				EC964D0C273FBD890028EA02 /* EmptyViewController.swift in Sources */,
 				EC964C9F273F95D70028EA02 /* KeyboardHelper.swift in Sources */,
 				EC964CD9273FAD7F0028EA02 /* NotificationViewController.swift in Sources */,
 				EC964CF2273FB2400028EA02 /* HomeDelegate.swift in Sources */,
+				EC964D23273FC92F0028EA02 /* HistoryData.swift in Sources */,
+				EC964D11273FBFC60028EA02 /* DiseaseHistoryViewController.swift in Sources */,
 				EC964C98273F91620028EA02 /* LoginViewController.swift in Sources */,
 				EC964CF5273FB2730028EA02 /* HomeViewModel.swift in Sources */,
 				EC964CD2273FAB610028EA02 /* HomeViewController.swift in Sources */,
 				EC964C8D273F8B070028EA02 /* NavigationController.swift in Sources */,
 				EC964CA4273F98350028EA02 /* LoginViewModel.swift in Sources */,
 				EC964CAE273F9CB10028EA02 /* AuthStoreManager.swift in Sources */,
+				EC964D03273FBAFE0028EA02 /* Profile.swift in Sources */,
 				ECE87E78273F7F14001DAEE7 /* SceneDelegate.swift in Sources */,
+				EC964D29273FC9EA0028EA02 /* DiseaseHistoryDelegate.swift in Sources */,
+				EC964D20273FC8240028EA02 /* HistoryCardTableViewCell.swift in Sources */,
+				EC964D1D273FC7220028EA02 /* HistoryManager.swift in Sources */,
 				EC964CB1273F9CEB0028EA02 /* HandleResponseMethod.swift in Sources */,
 				EC964C90273F8E230028EA02 /* Screen.swift in Sources */,
+				EC964D1B273FC6B60028EA02 /* HistoryProvider.swift in Sources */,
+				EC964D26273FC9450028EA02 /* History.swift in Sources */,
+				EC964D19273FC66F0028EA02 /* DiseaseHistoryViewModel.swift in Sources */,
 				EC964CBA273F9FF20028EA02 /* LoginViewModelDelegate.swift in Sources */,
 				EC964CA1273F979F0028EA02 /* UIViewController+Action.swift in Sources */,
 				EC964CB4273F9D430028EA02 /* Error.swift in Sources */,
-				EC964CB7273F9E200028EA02 /* EmptyModel.swift in Sources */,
 				EC964CED273FB18E0028EA02 /* HomeDataSource.swift in Sources */,
 				EC964C9C273F95740028EA02 /* UIView+CornerRadius.swift in Sources */,
 				EC964CFB273FB44E0028EA02 /* HomeCardTableViewCell.swift in Sources */,
 				EC964CCB273FAAFD0028EA02 /* TabBarViewController.swift in Sources */,
+				EC964D2B273FCE960028EA02 /* Date+String.swift in Sources */,
 				EC964CE0273FAE220028EA02 /* StatisticsViewController.swift in Sources */,
 				EC964CE7273FAE840028EA02 /* SettingsViewController.swift in Sources */,
+				EC964D00273FB7CD0028EA02 /* AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -904,7 +1040,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6D5VKBZTWA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MADHealth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -925,7 +1061,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6D5VKBZTWA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MADHealth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

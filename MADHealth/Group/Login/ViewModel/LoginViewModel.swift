@@ -27,8 +27,10 @@ extension LoginViewModel {
     func auth(email: String, password: String) {
         guard !email.isEmpty && !password.isEmpty && email.contains("@")  else { return }
         AuthStoreManager().auth(email: email, password: password) { [weak self] response, error in
-            if error == nil {
+            if let model = response?.data {
                 UserDefaultsManager.shared.save(value: true, data: .isAuth)
+                UserDefaultsManager.shared.save(value: model.avatar, data: .profileImageURL)
+                UserDefaultsManager.shared.save(value: model.name, data: .profileName)
                 self?.delegate?.openMainScreen()
             }
         }
